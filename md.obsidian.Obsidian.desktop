@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Obsidian
+Comment=Markdown-based knowledge base.
+Exec=obsidian %U
+Icon=md.obsidian.Obsidian
+Terminal=false
+Type=Application
+Categories=Office;Utility;
+
