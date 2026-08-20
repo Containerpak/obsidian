@@ -5,6 +5,16 @@
   "description": "Markdown-based knowledge base.",
   "version": "1.13.7",
   "image": "ghcr.io/containerpak/obsidian:main",
+  "runtime_sources": [
+    {
+      "name": "obsidian_1.13.7_amd64.deb",
+      "url": "https://github.com/obsidianmd/obsidian-releases/releases/download/v1.13.7/obsidian_1.13.7_amd64.deb",
+      "sha256": "17dc33b49cb3e785ecc27edd2ea0c79e40207798b554fd2886e36ebee7af9ae0",
+      "size": 107021628,
+      "installer": "deb-extract",
+      "architecture": "amd64"
+    }
+  ],
   "binaries": ["/usr/bin/obsidian"],
   "desktop_entries": ["/usr/share/applications/md.obsidian.Obsidian.desktop"],
   "dependencies": [],
@@ -44,4 +54,3 @@
     "allowedHostCommands": []
   }
 }
-

@@ -57,7 +57,7 @@ jobs:
       - name: Verify package exports
         run: |
           docker pull ghcr.io/containerpak/obsidian:main
-          docker run --rm --entrypoint /bin/sh ghcr.io/containerpak/obsidian:main -ec 'test -x /usr/bin/obsidian && test -f /usr/share/applications/md.obsidian.Obsidian.desktop'
+          docker run --rm --entrypoint /bin/sh ghcr.io/containerpak/obsidian:main -ec 'test -x /usr/bin/obsidian && test ! -e /opt/Obsidian/obsidian && test -f /usr/share/applications/md.obsidian.Obsidian.desktop'
 
       - name: Publish summary
         run: echo "ghcr.io/containerpak/obsidian@${{ steps.build.outputs.digest }}" >> "$GITHUB_STEP_SUMMARY"

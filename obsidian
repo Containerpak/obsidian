@@ -1,3 +1,2 @@
 #!/bin/sh
-exec /opt/obsidian/AppRun "$@"
-
+exec /opt/Obsidian/obsidian "$@"
