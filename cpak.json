@@ -4,7 +4,7 @@
   "name": "Obsidian",
   "description": "Markdown-based knowledge base.",
   "version": "1.13.7",
-  "image": "ghcr.io/containerpak/obsidian@sha256:0f1f527862a158341dd5bde8b960d783a6907741688ce7e21d56b60b92fd5593",
+  "image": "ghcr.io/containerpak/obsidian@sha256:e41563ec9e55d519d88a6288b4c53e6c6b61c6e172c7f6dfcd7ef444c0dce276",
   "runtime_sources": [
     {
       "name": "obsidian_1.13.7_amd64.deb",
